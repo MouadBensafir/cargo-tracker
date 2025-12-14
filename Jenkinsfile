@@ -13,7 +13,7 @@ pipeline {
             }
         }
 
-        // Changement pour le webhook GitHub
+        // Changement pour le webhook
 
         stage('Build & Test') {
             steps {
