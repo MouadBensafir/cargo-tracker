@@ -13,6 +13,8 @@ pipeline {
             }
         }
 
+        // Changement pour le webhook GitHub
+
         stage('Build & Test') {
             steps {
                 bat 'mvn clean verify'
