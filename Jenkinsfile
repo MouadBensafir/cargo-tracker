@@ -13,7 +13,7 @@ pipeline {
             }
         }
 
-        // Changement pour le webhook
+        // Tester le webhook
 
         stage('Build & Test') {
             steps {
